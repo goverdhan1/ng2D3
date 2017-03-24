@@ -6,7 +6,7 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { BarchartComponent } from './shared/barchart/barchart.component';
-import { BarchartComponent } from './shared/multibarchart/multibarchart.component';
+import { MultiBarchartComponent } from './shared/multibarchart/multibarchart.component';
 import { routing, appRoutingProviders } from './app.routes';
 
 
@@ -14,7 +14,8 @@ import { routing, appRoutingProviders } from './app.routes';
   declarations: [
     AppComponent,
     HomeComponent,
-    BarchartComponent
+    BarchartComponent,
+    MultiBarchartComponent
   ],
   imports: [
     BrowserModule,
